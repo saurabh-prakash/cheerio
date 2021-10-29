@@ -15,7 +15,7 @@ jobs:
   
       - run:
           name: Run tests
-          command: npm run test
+          command: npm run test:jest
           environment:
             TEST: true
             REACT: 0.14
