@@ -38,6 +38,8 @@
     "domhandler": "^4.2.0",
     "domutils": "^2.7.0",
     "htmlparser2": "^6.1.0",
+    "jest-tesults-reporter": "^1.1.0",
+    "package.json": "^2.0.1",
     "parse5": "^6.0.1",
     "parse5-htmlparser2-tree-adapter": "^6.0.1",
     "tslib": "^2.3.0"
@@ -106,6 +108,15 @@
     ]
   },
   "jest": {
+    "reporters": [
+      "default",
+      [
+        "jest-tesults-reporter",
+        {
+          "tesults-target": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQyZDRlMDNlLTU5NWMtNDRhYi1hZDA1LTcwMjYyOGJmNzE3MS0xNjM4Nzc5MDU1MjcxIiwiZXhwIjo0MTAyNDQ0ODAwMDAwLCJ2ZXIiOiIwIiwic2VzIjoiNzg1YjJmMDEtMmQ1Ni00MzQzLTgxMTQtZThjNzJhZDUzMmJhIiwidHlwZSI6InQifQ.3_ybO9iO4guha4vMO-oTj2CKMCUzUY_fdjye99Mf2SA"
+        }
+      ]
+    ],
     "preset": "ts-jest",
     "testEnvironment": "node",
     "testPathIgnorePatterns": [
