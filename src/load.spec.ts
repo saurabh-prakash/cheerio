@@ -17,7 +17,7 @@ describe('.load', () => {
 
   it('(html) : should handle the `normalizeWhitepace` option', () => {
     const $ = cheerio.load('<body><b>foo</b>  <b>bar</b></body>', {
-      xml: { normalizeWhitespace: true },
+      xml: { normalizeWhitespace: false },
     });
     expect($.html()).toBe('<body><b>foo</b> <b>bar</b></body>');
   });
