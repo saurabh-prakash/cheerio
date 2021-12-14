@@ -22,6 +22,7 @@ type LoadType = typeof Load;
  */
 export interface CheerioAPI extends StaticType, LoadType {
   /**
+   * Added Comments
    * This selector method is the starting point for traversing and manipulating
    * the document. Like jQuery, it's the primary method for selecting elements
    * in the document.
