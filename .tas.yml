@@ -1,11 +1,5 @@
 ---
 framework: jest
-postMerge:
-  pattern:
-    - './src/**/*.spec.ts'
-preMerge:
-  pattern:
-    - './src/**/*.spec.ts'
 preRun:
   command:
     - npm ci
