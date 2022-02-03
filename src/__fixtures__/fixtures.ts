@@ -45,6 +45,8 @@ export const drinks = [
   '</ul>',
 ].join('');
 
+// comments
+
 export const food = ['<ul id="food">', fruits, vegetables, '</ul>'].join('');
 
 export const eleven = `

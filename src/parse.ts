@@ -9,7 +9,8 @@ import {
 } from 'domhandler';
 import type { InternalOptions } from './options';
 
-/*
+/* 
+ * I added a comment
  * Parser
  */
 export default function parse(

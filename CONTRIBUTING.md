@@ -2,6 +2,7 @@
 
 Thanks for your interest in contributing to the project! Here's a rundown of
 how we'd like to work with you:
+TESTING
 
 1.  File an issue on GitHub describing the contribution you'd like to make. This
     will help us to get you started on the right foot.
