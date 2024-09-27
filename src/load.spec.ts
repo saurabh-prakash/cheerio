@@ -7,7 +7,8 @@ describe('.load', () => {
     $('<script>');
     expect($('body')).toHaveLength(1);
   });
-
+ 
+  
   it('(html) : should handle lowercase tag options', () => {
     const $ = cheerio.load('<BODY><ul id="fruits"></ul></BODY>', {
       xml: { lowerCaseTags: true },
@@ -36,5 +37,3 @@ describe('.load', () => {
     expect($html.html()).toBe(html);
   });
 });
-
-// Testing 1
